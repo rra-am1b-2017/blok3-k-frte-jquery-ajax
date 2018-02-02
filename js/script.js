@@ -31,6 +31,8 @@ $(document).ready(function () {
   // We geven direct css property - value paren met een js-object mee aan de css method.
   $(".b").css({"font-size" : "6px", "background-color" : "rgb(230,230,230)"});
 
+  // Einde les lesweek 1
+
 
 
 
