@@ -19,11 +19,16 @@ $(document).ready(function () {
   // We geven deze mee aan de ol met id="left"
   $("#left").css(ol_style_left);
 
-  // We geven direct een js-object mee aan de css method. We passen dz cby 
+  // We selecteren de ol met id=right. 
+  // We geven direct css property - value paren met een js-object mee aan de css method.
   $("#right").css({"background-color" : "rgb(200,200,200)"});
 
+  // We selecteren de ol met class="b" 
+  // We geven direct css property - value paren met een js-object mee aan de css method.
   $(".a").css({"font-size" : "18px", "background-color" : "rgb(255,255,255)"});
 
+  // We selecteren de ol met class="b" 
+  // We geven direct css property - value paren met een js-object mee aan de css method.
   $(".b").css({"font-size" : "6px", "background-color" : "rgb(230,230,230)"});
 
 
