@@ -40,7 +40,35 @@ $(document).ready(function () {
 
   // Einde les lesweek 1 
   
+  $("#first_li").on("click", function () {
+    $("#left li:first").css({"background-color" : "yellow"});
+  });
+
+  // Maak nieuwe knoppen voor de volgende filter: last, even, odd, gt(2), lt(3), eq(3)
+
+  $("#last_li").on("click", function() {
+    $("#left li:last").css({"background-color" : "green"});
+  });
+
+  $("#even_li").on("click", function () {
+    $("#left li:even").css({"background-color" : "orange"});
+  });
+
+  $("#odd_li").on("click", function () {
+    $("#left li:odd").css({"background-color" : "blue"});
+  });
+
+  $("#gt_li").on("click", function () {
+    $("#left li:gt(2)").css({"background-color" : "rgb(230, 45, 60)"});
+  });
   
+  $("#lt_li").on("click", function () {
+    $("#left li:lt(2)").css({"background-color" : "rgb(230, 5, 160)"});
+  });
+
+  $("#eq_li").on("click", function () {
+    $("#left li:eq(2)").css({"background-color" : "rgb(20, 145, 60)"});
+  });
   
 });
 
