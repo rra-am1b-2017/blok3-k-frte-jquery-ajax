@@ -69,6 +69,11 @@ $(document).ready(function () {
   $("#eq_li").on("click", function () {
     $("#left li:eq(2)").css({"background-color" : "rgb(20, 145, 60)"});
   });
+
+
+  $("#selectClass").on("click", function () {
+    $("#right [class=a]").css({"background-color" : "purple", "color" : "white"});
+  });
   
 });
 
