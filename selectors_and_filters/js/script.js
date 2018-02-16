@@ -72,7 +72,11 @@ $(document).ready(function () {
 
 
   $("#selectClass").on("click", function () {
-    $("#right [class=a]").css({"background-color" : "purple", "color" : "white"});
+    $("#right [class]").css({"background-color" : "purple", "color" : "white"});
+  });
+
+  $("#selectStyle").on("click", function () {
+    $("#right [style*=bluev]").css({"background-color" : "rgb(200, 200, 0)", "color" : "black"});
   });
   
 });
