@@ -17,3 +17,13 @@
 .col-3 {
   padding-bottom: 1em;
 }
+
+.funnyClass {
+  border : 50px dashed orange;
+  border-radius : 80px;
+}
+
+.funnyClass2 {
+  border : 50px dashed rgb(255, 0, 191);
+  border-radius : 360px;
+}
