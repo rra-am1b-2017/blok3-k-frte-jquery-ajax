@@ -13,5 +13,5 @@ $(document).ready(function () {
 
   setInterval(function () {
     $("#second").toggleClass("funnyClass2");
-  }, 100);
+  }, 500);
 });
