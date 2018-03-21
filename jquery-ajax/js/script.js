@@ -6,9 +6,9 @@ $(document).ready(function () {
     var value = $(this).val();
 
     $.post("http://localhost/2017-2018/blok3/k-frte-am1b/jquery-ajax/data.php", 
-           {"category" : "testerdetest" }, 
+           {"category" :  value}, 
            function (data) {
-
+            
            },
            "text");
 

@@ -1,3 +1,5 @@
 <?php
-  echo "Hoi er is contact " . $_POST["category"];
+ // echo "Hoi er is contact " . $_POST["category"];
+
+ 
 ?>
