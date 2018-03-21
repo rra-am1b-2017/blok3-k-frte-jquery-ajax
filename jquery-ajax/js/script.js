@@ -2,6 +2,15 @@ $(document).ready(function () {
   //alert("Hoi");
 
   $("#selectCategory").on("change", function () {
-    alert("De select is verandert");
+    // We hebben de waarde opgevraagd van het select tag
+    var value = $(this).val();
+
+    $.post("http://localhost/2017-2018/blok3/k-frte-am1b/jquery-ajax/data.php", 
+           {"category" : "testerdetest" }, 
+           function (data) {
+
+           },
+           "text");
+
   });
 });
