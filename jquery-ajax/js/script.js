@@ -12,7 +12,7 @@ $(document).ready(function () {
               console.log(data);
               $(".jumbotron p").eq(1).text(data);
            },
-           "text");
+           "json");
 
   });
 });
