@@ -1,5 +1,8 @@
 <?php
-  echo "Hoi er is contact " . $_POST["category"];
+  include("./connect_db.php");
 
+  $sql = "SELECT * FROM `pictures` WHERE `category` = '{$_POST["category"]}'";
+
+  echo $sql;
 
 ?>
